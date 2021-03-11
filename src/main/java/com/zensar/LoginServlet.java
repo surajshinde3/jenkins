@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
 		 String pass=request.getParameter("pass");
 		 
 		 if(uname.equals("admin")&&pass.equals("admin"))
-			 response.getWriter().print("<h1>Authentication successful</h1>");
+			 response.getWriter().print("<h1>Authentication Done</h1>");
 		 else 
 			 response.getWriter().print("<h1>Authentication Failed</h1>");
 	}
