@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 		 if(uname.equals("admin")&&pass.equals("admin"))
 			 response.getWriter().print("<h1>Authentication Done</h1>");
 		 else 
-			 response.getWriter().print("<h1>Authentication Failed</h1>");
+			 response.getWriter().print("<h1>Authentication Failed, you are not valid user</h1>");
 	}
 
 }
